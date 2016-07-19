@@ -14,7 +14,6 @@ section .text
     global _start
 
 _start:
-    nop
     pop ebx     ; number of args
     pop ebx     ; name of program
     pop ebx     ; actual argument
@@ -61,4 +60,3 @@ set_false:
 exit:
     mov eax, SYS_EXIT
     int TRAP
-    nop

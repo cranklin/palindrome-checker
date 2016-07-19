@@ -7,3 +7,4 @@ Assemble instructions:
 nasm -f elf palincheck2.asm
 ld -m elf_i386 -s -o palincheck2 palincheck2.o
 ./palincheck2
+echo $?
